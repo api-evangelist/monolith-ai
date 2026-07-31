@@ -1,9 +1,28 @@
 aid: monolith-ai
 name: Monolith AI
-description: 'Monolith AI is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: manufacturing. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Monolith AI develops artificial-intelligence software for engineering
+  product development, helping R&D and test-lab teams validate physical products faster.
+  Its cloud SaaS platform pairs a notebook-style workspace with proprietary self-learning
+  models built for engineers: a Test Data Validation module whose anomaly detector
+  flags errors across hundreds of data channels, a Test Plan Optimisation module whose
+  next-test recommender can cut test plans by up to 70%, and a System Calibration module
+  that tunes performance across operating conditions. It serves battery, automotive,
+  aerospace and defense, and industrial and medical engineering teams. Monolith AI
+  is a portfolio company of Insight Partners. No public developer API, portal, or SDKs
+  are published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/monolith-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.monolithai.com/hubfs/Accelerate%20Product%20Validation%20with%20AI-guided%20Testing%20%20Monolith.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Manufacturing
+- Artificial Intelligence
+- Engineering
+- Testing
+- Machine Learning
+- Product Development
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/monolith-ai-domain-security.yml
 - type: Website
   url: https://www.monolithai.com/
+- type: Blog
+  url: https://www.monolithai.com/blog
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
