@@ -11,6 +11,17 @@ description: 'Monolith AI develops artificial-intelligence software for engineer
   is a portfolio company of Insight Partners. No public developer API, portal, or SDKs
   are published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/monolith-ai/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
